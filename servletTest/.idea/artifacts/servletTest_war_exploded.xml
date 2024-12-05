@@ -1,0 +1,18 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="servletTest:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/servletTest_war_exploded</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="servletTest" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="file-copy" path="D:/zz/apache-tomcat-7.0.56/lib/jstl-1.2_1.jar" />
+          <element id="file-copy" path="D:/zz/jar/mysql-connector-java-8.0.23/mysql-connector-java-8.0.23/mysql-connector-java-8.0.23.jar" />
+          <element id="file-copy" path="D:/zz/jar/druid-1.1.12.jar" />
+        </element>
+      </element>
+      <element id="javaee-facet-resources" facet="servletTest/web/Web" />
+    </root>
+  </artifact>
+</component>
